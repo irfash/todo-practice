@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body,html{
+    margin: 0px;
+  height: 100vh;
+  /* background-color:#111111;  */
+  background-image: url('https://picsum.photos/0');
+  /* linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172)); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+.App{
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+textarea::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  textarea::-webkit-scrollbar-track {
+  }
+  /* textarea::-webkit-scrollbar-thumb { */
+    /* background-color: rgba(110, 110, 110, 0.432);    color of the scroll thumb */
+    /* border-radius: 20px;       roundness of the scroll thumb */
+    /* border: 3px solid rgba(255, 255, 255, 0.363);  creates padding around scroll thumb */
+  /* } */
+
+
+  
